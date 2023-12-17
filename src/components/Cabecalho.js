@@ -1,7 +1,7 @@
 import './Cabecalho.css';
-import ajuda from '../imagens/ajuda-btn.svg';
-import logo from '../imagens/mini-logo.svg';
-import config from '../imagens/config-btn.svg';
+import ajuda from '../assets/ajuda-btn.svg';
+import logo from '../assets/mini-logo.svg';
+import config from '../assets/config-btn.svg';
 
 function Cabecalho() {
     return (

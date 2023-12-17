@@ -24,7 +24,7 @@
 }
 
 .barra-pesquisa {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-weight: normal;
     font-size: 88%;
     text-align: left;
@@ -39,6 +39,7 @@
 }
 
 .input-img {
-    padding-right: 20px;
+    position: relative;
+    right: 20px;
     cursor: pointer;
 }

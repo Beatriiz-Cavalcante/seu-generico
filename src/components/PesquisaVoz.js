@@ -1,6 +1,6 @@
 import './PesquisaVoz.css';
 
-import Microfone from '../imagens/microfone.svg';
+import Microfone from '../assets/microfone.svg';
 
 function PesquisaVoz() {
     return (
