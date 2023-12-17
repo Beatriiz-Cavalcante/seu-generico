@@ -1,14 +1,14 @@
 import './App.css';
 
-import Cabecalho from './components/Cabecalho';
-import Pesquisa from './components/Pesquisa';
-import PesquisaVoz from './components/PesquisaVoz';
-import CategoriaNome1 from './components/CategoriaNome1';
-import Carrossel1 from './components/Carrossel1';
-import CategoriaNome2 from './components/CategoriaNome2';
-import Carrossel2 from './components/Carrossel2';
-import CategoriaNome3 from './components/CategoriaNome3';
-import Carrossel3 from './components/Carrossel3';
+import Cabecalho from './components/home/Cabecalho';
+import Pesquisa from './components/home/Pesquisa';
+import PesquisaVoz from './components/home/PesquisaVoz';
+import CategoriaNome1 from './components/home/CategoriaNome1';
+import Carrossel1 from './components/home/Carrossel1';
+import CategoriaNome2 from './components/home/CategoriaNome2';
+import Carrossel2 from './components/home/Carrossel2';
+import CategoriaNome3 from './components/home/CategoriaNome3';
+import Carrossel3 from './components/home/Carrossel3';
 
 
 function App() {

@@ -1,6 +1,6 @@
 import './Pesquisa.css';
 
-import magnify from '../assets/search-magnify.svg'
+import magnify from '../../assets/search-magnify.svg'
 
 
 function Pesquisa() {

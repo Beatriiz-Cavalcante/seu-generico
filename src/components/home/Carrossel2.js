@@ -4,9 +4,9 @@ import {useState, useEffect, useRef} from 'react';
 
 import { motion } from 'framer-motion';
 
-import CetoprofenoMedley from '../assets/cetoprofeno-medley.svg';
-import LosartanaNeoquimica from '../assets/losartana-neoquimica.svg';
-import NaratriptinaNovaquimica from '../assets/naratriptina-novaquimica.svg';
+import CetoprofenoMedley from '../../assets/cetoprofeno-medley.svg';
+import LosartanaNeoquimica from '../../assets/losartana-neoquimica.svg';
+import NaratriptinaNovaquimica from '../../assets/naratriptina-novaquimica.svg';
 
 const imagens = [NaratriptinaNovaquimica, CetoprofenoMedley, LosartanaNeoquimica, NaratriptinaNovaquimica, CetoprofenoMedley, LosartanaNeoquimica, NaratriptinaNovaquimica, CetoprofenoMedley, LosartanaNeoquimica, NaratriptinaNovaquimica];
 
