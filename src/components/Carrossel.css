@@ -1,9 +1,9 @@
 .wrapper {
     width: 100%;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 5%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
