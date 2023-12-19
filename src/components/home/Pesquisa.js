@@ -8,7 +8,7 @@ function Pesquisa() {
             <div className="container-pesquisa">
                 <div className="input-wrapper">
                     <input id='medicamento' className='barra-pesquisa' type='text' placeholder='Pesquisar medicamento' />
-                    <submit className='input-img'><img src={magnify} alt='Pesquisar' /></submit>
+                    <input type='submit' className='input-img' value=' '/>
                 </div>
             </div>
         </div>
