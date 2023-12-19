@@ -9,6 +9,7 @@ import CategoriaNome2 from './components/home/CategoriaNome2';
 import Carrossel2 from './components/home/Carrossel2';
 import CategoriaNome3 from './components/home/CategoriaNome3';
 import Carrossel3 from './components/home/Carrossel3';
+import Navbar from './components/home/Navbar';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Carrossel2 />
         <CategoriaNome3 />
         <Carrossel3 />
+        <Navbar />
     </main>
   );
 }
