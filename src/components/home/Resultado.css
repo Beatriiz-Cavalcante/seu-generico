@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAFA;
+    padding-bottom: 75px;
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+}
+
+.filtro-cr {
+    display: flex;
+    gap: 20.5px;
+    width: 100%;
+    justify-content: center;
+
+    
+}
+
+.filtro {
+    
+    width: 16,66%;
+    padding: 6.33px 26.33px;
+    border: 1px solid #5A5A5A ;
+    border-radius: 15.83px;
+  
+}
+
+.itens {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.item {
+    width: 70%;
+    height: 30%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    background-color: #FBFBFB;
+    border: .5px solid #B0B0B0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+}
+
+.left {
+    width: 36%;
+    border-right: .5px solid #B0B0B0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto{
+    width: 80%;
+    height: auto;
+}
+
+.right {
+    margin-left: 1.5rem;
+}
+
+.right ul {
+    list-style-type: none;
+}
+
+.right h3 {
+    color: #DB471B;
+    margin-bottom: 2rem;
+}
+
+/*Deu errado a responsividade*/
+
+@media only screen and (max-width: 600px) {
+    /* Estilos para telas menores */
+    .item {
+        width: 70%;
+        height: 30%;
+        margin-left: 15%;
+        margin-right: 15%;
+        display: flex;
+        background-color: #FBFBFB;
+        border: .5px solid #B0B0B0;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  /* Para telas maiores, como tablets e desktops */
+  @media only screen and (min-width: 768px) {
+    /* Estilos para telas maiores */
+    .item {
+        width: 50%;
+        height: 30%;
+        margin-left: 25%;
+        margin-right: 25%;
+        display: flex;
+        background-color: #FBFBFB;
+        border: .5px solid #B0B0B0;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+    }
+  }
+  

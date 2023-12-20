@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 
 import Cabecalho from './components/home/Cabecalho';
@@ -10,20 +11,14 @@ import Carrossel2 from './components/home/Carrossel2';
 import CategoriaNome3 from './components/home/CategoriaNome3';
 import Carrossel3 from './components/home/Carrossel3';
 import Navbar from './components/home/Navbar';
+import Resultado from './components/home/Resultado';
 
 
 function App() {
   return (
     <main className="principal">
         <Cabecalho />
-        <Pesquisa />
-        <PesquisaVoz />
-        <CategoriaNome1 />
-        <Carrossel1 />
-        <CategoriaNome2 />
-        <Carrossel2 />
-        <CategoriaNome3 />
-        <Carrossel3 />
+        <Resultado />
         <Navbar />
     </main>
   );
